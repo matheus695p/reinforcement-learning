@@ -10,11 +10,11 @@ else:
 # pixeles por cuadrado
 UNIT = 40
 
-# El minimo es 7 en ambos
+# El minimo es 6 en ambos
 # alto
-MAZE_H = 10
+MAZE_H = 15
 # ancho
-MAZE_W = 10
+MAZE_W = 15
 
 
 class MazeEnviroment():
@@ -96,7 +96,7 @@ class MazeEnviroment():
             fill='black')
 
         # crear ovalo en el oro
-        oval_center = origin + UNIT * 6
+        oval_center = origin + UNIT * 4
         self.oval = self.canvas.create_oval(
             oval_center[0] - 15, oval_center[1] - 15,
             oval_center[0] + 15, oval_center[1] + 15,

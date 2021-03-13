@@ -6,7 +6,7 @@ matplotlib.use('TkAgg')
 
 # Parámetros
 # número de episodios que van hacer
-episode_count = 100
+episode_count = 50
 episodes = range(episode_count)
 
 

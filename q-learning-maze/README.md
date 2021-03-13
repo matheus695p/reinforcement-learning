@@ -1,4 +1,4 @@
-# Maze problem with Reinforcement Learning
+# Reinforcement Learning (buscador de oro)
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 

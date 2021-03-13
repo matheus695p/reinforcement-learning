@@ -77,7 +77,7 @@ def run_experiment():
 
 def plot_reward_movements():
     """
-    Resultados del aprendizaje por Q-Table
+    Resultados del aprendizaje por Q-reinforcement learning
     Returns
     -------
     Plot de como aprendió

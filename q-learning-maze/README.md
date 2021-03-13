@@ -13,4 +13,4 @@ The environment can be represented as:
 Después de los 50 episodios se puede ver la convergencia a encontrar el punto. 
 
 ![Movimientos en función de los episiodios](images/rl_movimientos.png)  
-![Recompenzas en función de los episiodios](images/rl_movimientos.png)  
+![Recompenzas en función de los episiodios](images/rl_recompenzas.png)  

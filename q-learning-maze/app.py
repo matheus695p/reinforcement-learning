@@ -21,18 +21,18 @@ rewards = []
 
 def run_experiment():
     """
-    Reinforcement learning maze example.
-    This function updates the position of the explorer in the Maze
-    environment based on the actions it chooses.
+    Salir del laberinto con aprendizaje por refuerzo.
+    Esta función actualiza la posición del explorador en el Laberinto.
+    entorno basado en las acciones que elige.
+    Este script es la parte principal que controla el método de
+    actualización usando el algoritmo q-learning.
 
-    This script is the main part which controls the update method of
-    this example using q-learning algorithm.
-    The RL algorithm (Q-learning) is in RL_agent.py.
-    The environment is presented in maze_env.py.
-    Red rectangle:          explorer.
-    Black rectangles:       hells       [reward = -1].
-    Yellow bin circle:      paradise    [reward = +1].
-    All other states:       ground      [reward = 0].
+    El algoritmo RL (Q-learning) esta en src/rl_agent.py.
+    El entorno de esta en src/maze_env.py.
+    Rectangulo rojo:        agente.
+    rectangulo negro:       perdiste/te caiste     [reward = -1].
+    circulo amarillo:      encontro oro           [reward = +1].
+    Todos los demás:       tierra                 [reward = 0].
     """
     for episode in episodes:
         print("Episodio: ", f"{episode +1}/{episode_count}")

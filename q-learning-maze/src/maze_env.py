@@ -42,7 +42,7 @@ class MazeEnviroment():
         Parámetros de entrada.
         """
         self.window = tk.Tk()
-        self.window.title('maze with Q-Learning')
+        self.window.title('Busca mina con Q-Learning')
         self.window.geometry('{0}x{1}'.format(MAZE_W * UNIT, MAZE_H * UNIT))
         # ToDo: Fill the list with all possible actions
         self.action_space = ['u', 'd', 'l', 'r']

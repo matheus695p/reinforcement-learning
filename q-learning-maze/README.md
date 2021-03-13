@@ -1,17 +1,16 @@
 # Maze problem with Reinforcement Learning
 
-![Maze Environment](images/maze.png)
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+
+![Entorno de entrnamiento](images/busca_mina.png)
 
 The environment can be represented as:
-
-* States: tiles
-
-* Actions: Left, Right, Up, Down
-
-* Reward: +1 for gold state, -1 for black state, 0 for others.
+* States: posiciones en el mapa
+* Actions: arriba, abajo, izquierda y derecha
+* Reward: +1 si llegaste al horo, -1 si entraste en una zona negrita, 0 si te moviste solamente.
 
 ## Results
+Después de los 50 episodios se puede ver la convergencia a encontrar el punto. 
 
-After 50 episodes, the number of movements get converged to the optimal. The reward also goes to 1. 
-
-![Movement and reward trend](images/rewards_movements_q_learn.png)  
+![Movimientos en función de los episiodios](images/rl_movimientos.png)  
+![Recompenzas en función de los episiodios](images/rl_movimientos.png)  

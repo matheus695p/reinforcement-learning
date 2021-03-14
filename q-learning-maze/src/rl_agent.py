@@ -51,8 +51,9 @@ class QLearningTable:
             DESCRIPTION.
         Returns
         -------
-        action : int [arriba, abajo, derecha, izquierda]
-            [0, 1, 2, 3].
+        action : int
+            cualquiera de estos
+            [arriba, abajo, derecha, izquierda] = [0, 1, 2, 3].
         """
         # agregar observación a la tabla
         self.add_state(observation)
@@ -77,15 +78,14 @@ class QLearningTable:
         Método de aprendizaje según ecuación de bellman
         Parameters
         ----------
-        s : estado actual
-            DESCRIPTION.
-        a : string
-            DESCRIPTION.
+        s : posición
+            array.
+        a : int
+            para donde me muevo?.
         r : int
-            DESCRIPTION.
-        s_ : int
-            DESCRIPTION.
-
+            0, -1, 1, dependiendo de como lo hice.
+        s_ : array
+            estado siguiente.
         Returns
         -------
 
@@ -98,7 +98,7 @@ class QLearningTable:
 
         # si aún no hemos perdido el juego
         if s_ != 'terminal':
-            # ToDo: approximate the expected future reward based on Bellman equation:
+            # Aproximar futura recompenza de actuerdo a ecuación de Bellman
             # Q'() = r + gamma * [max_a' Q(s',a')]
             q_target = r + self.gamma * self.q_table.loc[s_, :].max()
 

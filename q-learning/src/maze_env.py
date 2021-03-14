@@ -82,49 +82,49 @@ class MazeEnviroment():
             hell2_center[0] - 15, hell2_center[1] - 15,
             hell2_center[0] + 15, hell2_center[1] + 15,
             fill='black')
-       # infierno 3
+        # infierno 3
         hell3_center = origin + np.array([UNIT, UNIT * 5])
         self.hell3 = self.canvas.create_rectangle(
             hell3_center[0] - 15, hell3_center[1] - 15,
             hell3_center[0] + 15, hell3_center[1] + 15,
             fill='black')
-       # infierno 4
+        # infierno 4
         hell4_center = origin + np.array([UNIT * 8, UNIT * 5])
         self.hell4 = self.canvas.create_rectangle(
             hell4_center[0] - 15, hell4_center[1] - 15,
             hell4_center[0] + 15, hell4_center[1] + 15,
             fill='black')
-       # infierno 5
+        # infierno 5
         hell5_center = origin + np.array([UNIT * 9, UNIT * 2])
         self.hell5 = self.canvas.create_rectangle(
             hell5_center[0] - 15, hell5_center[1] - 15,
             hell5_center[0] + 15, hell5_center[1] + 15,
             fill='black')
-       # infierno 6
+        # infierno 6
         hell6_center = origin + np.array([UNIT * 10, UNIT * 10])
         self.hell6 = self.canvas.create_rectangle(
             hell6_center[0] - 15, hell6_center[1] - 15,
             hell6_center[0] + 15, hell6_center[1] + 15,
             fill='black')
-       # infierno 7
+        # infierno 7
         hell7_center = origin + np.array([UNIT * 6, UNIT * 8])
         self.hell7 = self.canvas.create_rectangle(
             hell7_center[0] - 15, hell7_center[1] - 15,
             hell7_center[0] + 15, hell7_center[1] + 15,
             fill='black')
-       # infierno 8
+        # infierno 8
         hell8_center = origin + np.array([UNIT * 5, UNIT * 8])
         self.hell8 = self.canvas.create_rectangle(
             hell8_center[0] - 15, hell8_center[1] - 15,
             hell8_center[0] + 15, hell8_center[1] + 15,
             fill='black')
-       # infierno 9
+        # infierno 9
         hell9_center = origin + np.array([UNIT * 3, UNIT * 3])
         self.hell9 = self.canvas.create_rectangle(
             hell9_center[0] - 15, hell9_center[1] - 15,
             hell9_center[0] + 15, hell9_center[1] + 15,
             fill='black')
-       # infierno 10
+        # infierno 10
         hell10_center = origin + np.array([UNIT * 3, UNIT * 3])
         self.hell10 = self.canvas.create_rectangle(
             hell10_center[0] - 15, hell10_center[1] - 15,

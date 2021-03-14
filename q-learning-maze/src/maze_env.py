@@ -144,7 +144,7 @@ class MazeEnviroment():
             oval_center2[0] + 15, oval_center2[1] + 15,
             fill='yellow')
 
-        oval_center3 = origin + np.array([UNIT * 10, UNIT * 2])
+        oval_center3 = origin + np.array([UNIT * 9, UNIT * 1])
         self.oval3 = self.canvas.create_oval(
             oval_center3[0] - 15, oval_center3[1] - 15,
             oval_center3[0] + 15, oval_center3[1] + 15,

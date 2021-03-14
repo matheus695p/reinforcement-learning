@@ -10,7 +10,7 @@ The environment can be represented as:
 * recompenza: +1 si llegaste al oro, -1 si entraste en una zona negrita, 0 si te moviste solamente.
 
 ## Results
-Después de los 50 episodios se puede ver la convergencia a encontrar el punto. 
+Después de los 100 episodios se puede ver la convergencia a encontrar el punto. 
 
 ![Movimientos en función de los episiodios](images/rl_movimientos.png)  
 ![Recompenzas en función de los episiodios](images/rl_recompenzas.png)  

@@ -59,7 +59,7 @@ def run_experiment():
             q_learning_agent.learn(str(observation), action, reward,
                                    str(observation_))
             observation = observation_
-            # romper mientras bucle al final de este episodio
+            # romper cuando finalice episodio (1 o -1)
             if done:
                 # guardar el número de movimientos hechos para ganar
                 movements.append(moves)

@@ -6,7 +6,7 @@ matplotlib.use('TkAgg')
 
 # Parámetros
 # número de episodios que van hacer
-episode_count = 50
+episode_count = 100
 episodes = range(episode_count)
 
 
@@ -29,7 +29,7 @@ def run_experiment():
 
     El algoritmo RL (Q-learning) esta en src/rl_agent.py.
     El entorno de esta en src/maze_env.py.
-    Rectangulo rojo:        agente.
+    Rectangulo verde:        agente.
     rectangulo negro:       perdiste/te caiste     [reward = -1].
     circulo amarillo:      encontro oro           [reward = +1].
     Todos los demás:       tierra                 [reward = 0].

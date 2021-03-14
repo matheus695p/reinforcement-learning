@@ -9,7 +9,7 @@ The environment can be represented as:
 * acciones: arriba, abajo, izquierda y derecha [0,1, 2, 3]
 * recompenza: +1 si llegaste al oro, -1 si entraste en una zona negrita, 0 si te moviste solamente.
 
-## Resultados
+## Probar el agente por tu cuenta
 ```sh
 $ git clone https://github.com/matheus695p/reinforcement-learning.git
 $ cd reinforcement-learning
